@@ -3,12 +3,12 @@
 const Navbar = () => {
     const links = <>
         <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
     </>
     return (
-        <div className="border-b">
+        <div className="border-b fixed w-full bg-white shadow-sm">
             <div className="navbar w-full max-w-screen-xl mx-auto">
                 <div className="navbar-start">
                     <div className="dropdown">

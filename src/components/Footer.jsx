@@ -10,11 +10,11 @@ const Footer = () => {
                             <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Thanks For Visiting</span>
                         </a>
                         <div className="flex items-center justify-center gap-3">
-                            <p><a href="#"> <FaGithub className="w-10 h-10 border rounded-full p-2 bg-gray-200" /> </a></p>
-                            <p><a href="#"> <FaTwitter className="w-10 h-10 border rounded-full p-2 bg-gray-200"/> </a></p>
-                            <p><a href="#"> <FaInstagram className="w-10 h-10 border rounded-full p-2 bg-gray-200" /> </a></p>
-                            <p><a href="#"> <FaLinkedin className="w-10 h-10 border rounded-full p-2 bg-gray-200" /> </a></p>
-                            <p><a href="#"> <FaFacebook className="w-10 h-10 border rounded-full p-2 bg-gray-200" /> </a></p>
+                            <p><a href="https://github.com/takbirgazi" target="_blank"> <FaGithub className="w-10 h-10 border rounded-full p-2 bg-gray-200" /> </a></p>
+                            <p><a href="https://x.com/takbirgazibd" target="_blank"> <FaTwitter className="w-10 h-10 border rounded-full p-2 bg-gray-200"/> </a></p>
+                            <p><a href="https://www.instagram.com/takbirgazibd/" target="_blank"> <FaInstagram className="w-10 h-10 border rounded-full p-2 bg-gray-200" /> </a></p>
+                            <p><a href="https://www.linkedin.com/in/takbirgazi/" target="_blank"> <FaLinkedin className="w-10 h-10 border rounded-full p-2 bg-gray-200" /> </a></p>
+                            <p><a href="https://www.facebook.com/takbirgazibd/" target="_blank"> <FaFacebook className="w-10 h-10 border rounded-full p-2 bg-gray-200" /> </a></p>
                         </div>
                         <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
                             <li>
