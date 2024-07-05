@@ -7,6 +7,7 @@ import { IoLogoFirebase } from "react-icons/io5";
 import { SiExpress } from "react-icons/si";
 import { SiMysql } from "react-icons/si";
 import { SiPhp } from "react-icons/si";
+import { IoLogoJavascript } from "react-icons/io";
 
 
 const About = () => {
@@ -21,7 +22,7 @@ const About = () => {
                     </div>
                     <div className="flex-1">
                         <p>
-                            Welcome to my website! I am Takbir Gazi,I am a student of national university of economics and I also  a web developer skilled in HTML, CSS, Tailwind CSS, React.js, MongoDB, Firebase, Express.js, MySQLi, and PHP. I create dynamic and responsive web applications, focusing on high-quality and efficient solutions. Explore my portfolio and contact me to bring your web projects to life!
+                            Welcome to my website! I am Takbir Gazi,I am a <span className="font-semibold italic">student of national university of economics</span> and I also  a <span className="font-semibold italic">web developer</span> skilled in HTML, CSS, Tailwind CSS, React.js, MongoDB, Firebase, Express.js, MySQLi, PHP and  JavaScript. I create dynamic and responsive web applications, focusing on high-quality and efficient solutions. Explore my portfolio and contact me to bring your web projects to life!
                         </p>
                         <div className="flex flex-col lg:flex-row gap-2 my-1">
                             <div className="flex gap-2 my-1 justify-center">
@@ -55,6 +56,9 @@ const About = () => {
                                 </p>
                                 <p title="PHP" className="border-2 border-blue-800 rounded-full p-1">
                                     <SiPhp className="w-8 h-8 text-blue-500" />
+                                </p>
+                                <p title="JavaScript" className="border-2 border-yellow-800 rounded-full p-1">
+                                    <IoLogoJavascript className="w-8 h-8 text-yellow-500" />
                                 </p>
                             </div>
                         </div>
