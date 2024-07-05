@@ -22,7 +22,7 @@ const About = () => {
                     </div>
                     <div className="flex-1">
                         <p>
-                            Welcome to my website! I am Takbir Gazi,I am a <span className="font-semibold italic">student of national university of economics</span> and I also  a <span className="font-semibold italic">web developer</span> skilled in HTML, CSS, Tailwind CSS, React.js, MongoDB, Firebase, Express.js, MySQLi, PHP and  JavaScript. I create dynamic and responsive web applications, focusing on high-quality and efficient solutions. Explore my portfolio and contact me to bring your web projects to life!
+                            Welcome to my website! I am Takbir Gazi,I am a <span className="font-semibold italic"> student at the National University of Economics,</span> and I am also a <span className="font-semibold italic">web developer</span> skilled in HTML, CSS, Tailwind CSS, React.js, MongoDB, Firebase, Express.js, MySQLi, PHP and  JavaScript. I create dynamic and responsive web applications, focusing on high-quality and efficient solutions. Explore my portfolio and contact me to bring your web projects to life!
                         </p>
                         <div className="flex flex-col lg:flex-row gap-2 my-1">
                             <div className="flex gap-2 my-1 justify-center">
