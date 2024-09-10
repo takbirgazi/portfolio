@@ -32,10 +32,10 @@ const Navbar = () => {
                             {links}
                         </ul>
                     </div>
-                    <a className="btn btn-ghost text-xl">Md. Takbir Gazi</a>
+                    <a className="btn btn-ghost text-xl text-gray-800">Md. Takbir Gazi</a>
                 </div>
                 <div className="navbar-end hidden lg:flex">
-                    <ul className="menu menu-horizontal px-1">
+                    <ul className="menu menu-horizontal px-1 text-gray-800">
                         {links}
                     </ul>
                 </div>

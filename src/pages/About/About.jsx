@@ -13,15 +13,15 @@ import { IoLogoJavascript } from "react-icons/io";
 const About = () => {
     return (
         <div className="bg-gray-300 py-10" id="about">
-            <h2 className="font-bold text-3xl text-center">About Me</h2>
-            <p className="text-center px-2">I never sleep when I am tired, but I will sleep only when I am Done!</p>
+            <h2 className="font-bold text-3xl text-center text-gray-800">About Me</h2>
+            <p className="text-center px-2 text-gray-800">I never sleep when I am tired, but I will sleep only when I am Done!</p>
             <div className="w-11/12 mx-auto my-5 p-5">
                 <div className="flex flex-col lg:flex-row mx-auto items-center gap-1">
                     <div className="">
                         <img src={takbirgazi} alt="Md. Takbir Gazi" className="h-40 w-40 border rounded-full" />
                     </div>
                     <div className="flex-1">
-                        <p>
+                        <p className="text-gray-800">
                             Welcome to my website! I am Takbir Gazi,I am a <span className="font-semibold italic"> student at the National University of Economics,</span> and I am also a <span className="font-semibold italic">web developer</span> skilled in HTML, CSS, Tailwind CSS, React.js, MongoDB, Firebase, Express.js, MySQLi, PHP and  JavaScript. I create dynamic and responsive web applications, focusing on high-quality and efficient solutions. Explore my portfolio and contact me to bring your web projects to life!
                         </p>
                         <div className="flex flex-col lg:flex-row gap-2 my-1">
